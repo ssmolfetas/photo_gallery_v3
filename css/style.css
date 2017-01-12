@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+    border-color: lightslategrey;
+    border-style: solid;
+    width: 60%;
+    height: 30px;
+    margin: 10px 0; 
+    /*text-align: center;*/
+    color: lightslategrey;           
+}
+
+::-webkit-input-placeholder {
+   color: lightslategrey;   
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: lightslategrey;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: lightslategrey;  
+}
+
+:-ms-input-placeholder {  
+   color: lightslategrey;  
+}
+
+.galleryWrap {
+    width: 100%;
+}
+
+.col {
+    margin: 10px 0;
+}
+
+@media only screen and (min-width: 568px) {
+    .col {
+        float: left;
+        width: calc(100% / 12 * 6 );
+        /*padding: 0 0.5rem;*/
+    }
+    
+    input {
+        width: 50%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .col {
+        float: left;
+        width: calc(100% / 12 * 4 );
+        /*padding: 0 0.5rem;*/
+    }
+
+  input {
+        width: 40%;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .col {
+        float: left;
+        width: calc(100% / 12 * 3 );
+        /*padding: 0 0.5rem;*/
+    }
+
+  input {
+        width: 35%;
+    }
+
+}
