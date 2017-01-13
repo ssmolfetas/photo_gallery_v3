@@ -75,3 +75,15 @@ input {
     }
 
 }
+
+@media only screen and (min-width: 1368px) {
+
+    .galleryWrap {
+        width: 60%;
+        margin: auto;
+    }
+
+    input {
+        width: 27%;
+    }
+}
