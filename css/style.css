@@ -10,7 +10,8 @@ input {
     height: 30px;
     margin: 10px 0; 
     /*text-align: center;*/
-    color: lightslategrey;           
+    color: lightslategrey;    
+    font-family: 'Roboto', sans-serif;       
 }
 
 ::-webkit-input-placeholder {
@@ -36,6 +37,11 @@ input {
 .col {
     margin: 10px 0;
 }
+
+.hidden {
+    display: none;
+}
+
 
 @media only screen and (min-width: 568px) {
     .col {
